@@ -7,5 +7,10 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  const getDomain = [
+    { pronoun: ["your", "my", "the"] },
+    { adj: ["happy", "sad", "good"] },
+    { noun: ["place", "sandwich", "lion"] },
+    { domain: [".com", ".es", ".org"] }
+  ];
 };
